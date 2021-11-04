@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-	{!! html::head() !!}
-	<body{!! html::getBodyAttributes() !!}>
+
+	<body>
 		@if (isset($content))
 			{!! $content !!}
 		@endif
-		{!! html::getjs() !!}
 	</body>
 </html>

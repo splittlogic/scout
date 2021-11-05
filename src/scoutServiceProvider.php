@@ -40,7 +40,7 @@ class scoutServiceProvider extends ServiceProvider
 		// Publishing the configuration file.
 		$this->publishes([
 			__DIR__.'/../config/scout.php' => config_path('scout.php'),
-		], 'scout.config');
+		], 'config');
 
 		// Publishing the views.
     $this->publishes([

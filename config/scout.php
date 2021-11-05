@@ -8,6 +8,12 @@ return [
 
     'children' => [
 
+      'example.com' => [
+
+
+
+      ]
+
     ]
 
   ]

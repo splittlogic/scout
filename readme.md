@@ -15,7 +15,11 @@ $ composer require splittlogic/scout
 
 ## Usage
 
-Once installed go to yourdomain.com/splittlogic/scout to view reference/tutorial guide.
+Once installed, run:
+
+php artisan vendor:publish --provider="Vendor\splittlogic\scoutServiceProvider" --tag="config"
+
+go to yourdomain.com/splittlogic/scout to view reference/tutorial guide.
 
 ## Change log
 
